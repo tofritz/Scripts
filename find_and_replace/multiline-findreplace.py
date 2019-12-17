@@ -1,7 +1,7 @@
 # Another script for replacing text in various files within a folder.
 # This version accepts multi-line strings.
 # Note: different filetypes can be targeted by editing the extension in the globbing.
-# also beware, no backups are made. Python3 required.
+# also beware, no backups are made, and this script will read all the text in a file into memory so dont run it on gigantic things. Python3 required.
 
 import glob
 
